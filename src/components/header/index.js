@@ -17,10 +17,10 @@ const Header = () => {
             <img src={Folded} className="folded" />
           </button>
           <ul className="in-links">
-            <li>About</li>
-            <li>Collection</li>
-            <li>Mobile app</li>
-            <li>Roadmap</li>
+            <li><a>Meb Home</a></li>
+            <li><a>Road Map</a></li>
+            <li><a>Metent Ether Babies</a></li>
+            <li><a>Mint Your Mebs</a></li>
           </ul>
           <img src={pageLogo} alt="page-logo" className="page-logo" />
           <div className="out-links">
@@ -39,7 +39,7 @@ const Header = () => {
               </li>
             </ul>
             <button className="get-btn">
-              Get Llama
+              Mint Your Mebs
             </button>
           </div>
         </div>
