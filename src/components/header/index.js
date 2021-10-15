@@ -1,5 +1,5 @@
 import "./style.scss"
-import pageLogo from "../../resources/images/download.webp"
+import pageLogo from "../../resources/images/logo-army-green.png"
 import OpenSea from "../../resources/images/opensea.svg"
 import Discord from "../../resources/images/discord.svg"
 import Twitter from "../../resources/images/twitter.svg"
@@ -21,7 +21,7 @@ const Header = () => {
             <li><a>Road Map</a></li>
             <li><a>Mutant Ether Babies</a></li>
           </ul>
-          {/* <img src={pageLogo} alt="page-logo" className="page-logo" /> */}
+          <img src={pageLogo} alt="page-logo" className="page-logo" />
           <div className="out-links">
             <ul className="social-links">
               <li>
