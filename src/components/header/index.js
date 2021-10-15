@@ -20,7 +20,10 @@ const Header = () => {
             <li><a>Meb Home</a></li>
             <li><a>Road Map</a></li>
           </ul>
-          <img src={pageLogo} alt="Mutant Ether Babies" className="page-logo" />
+          {/* <img src={pageLogo} alt="Mutant Ether Babies" className="page-logo" /> */}
+          <div className="logo-text">
+          <span>Mutant Ether Babies</span>
+          </div>
           <div className="out-links">
             <ul className="social-links">
               <li>
