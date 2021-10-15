@@ -22,7 +22,7 @@ const Header = () => {
           </ul>
           {/* <img src={pageLogo} alt="Mutant Ether Babies" className="page-logo" /> */}
           <div className="logo-text">
-          <span>Mutant Ether Babies</span>
+          <span>MEB NFT</span>
           </div>
           <div className="out-links">
             <ul className="social-links">

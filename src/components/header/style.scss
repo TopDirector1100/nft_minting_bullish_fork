@@ -36,12 +36,11 @@
 .logo-text {
   margin-top: -5px;
   position: absolute;
-  left: calc(50% - 270px);
+  left: calc(50% - 190px);
   span {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 1000;
     padding-right: 20px;
-    color: rgb(151, 158, 255) !important;
   }
 }
 
@@ -88,6 +87,7 @@
   }
 
   .in-links,
+  .logo-text,
   .out-links {
     display: none;
   }
