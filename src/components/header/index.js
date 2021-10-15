@@ -17,8 +17,10 @@ const Header = () => {
             <img src={Folded} className="folded" />
           </button>
           <ul className="in-links">
-            <li><a>Meb Home</a></li>
-            <li><a>Road Map</a></li>
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Roadmap</a></li>
+            <li><a>Gaming-Metaverse</a></li>
           </ul>
           {/* <img src={pageLogo} alt="Mutant Ether Babies" className="page-logo" /> */}
           <div className="logo-text">
