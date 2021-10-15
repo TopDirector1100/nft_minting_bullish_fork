@@ -1,0 +1,14 @@
+@import "../../styles/variables.scss";
+
+.big-img {
+  background-image: url("../../resources/images/divider.18a0d90b.webp");
+  height: 550px;
+  background-size: cover;
+  background-position-y: -100px;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 700px) {
+  .big-img {
+    height: 300px;
+  }
+}

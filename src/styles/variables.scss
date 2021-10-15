@@ -1,0 +1,67 @@
+// White Colors
+$white: #fff;
+// Black Colors
+$black: #000;
+
+// Yellow Colors
+$yellow: rgb(255, 214, 66);
+$yellow-text: #f3ba2f;
+
+$grey-text: #1e2329;
+$grey-background-color: #fafafa;
+$grey-dark-background-color: #f5f5f5;
+$grey-border-color: #1e232940;
+
+$Black-dark: #222222;
+
+// White Colors
+$White: #ffffff;
+$White-gray: #f0f0f0;
+
+$Silver: #c0c0c0;
+$Platinum: #e5e4e2;
+
+// Yellow Colors
+$Warning: #fad121;
+$Warning-dark: #ebc10d;
+
+$Bronze: #a57164;
+$Gold: #ffd700;
+
+// Purple Colors
+$Purple: #5c33f8;
+$Purple-dark: #5027ec;
+$Purple-light: #6449ca;
+
+// Pink Colors
+$Pink: #fd17fd;
+
+// Red Colors
+$Magenta: #d80073;
+
+@mixin btn-glow {
+  &:hover {
+    box-shadow: rgb(255, 255, 255) 0px 0px 20px;
+  }
+}
+
+@mixin btn {
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: $white;
+  box-shadow: #ffffffd9 0px 0px 14px;
+  font-size: 18px;
+  padding: 10px 36px;
+  font-weight: 500;
+}
+
+@mixin btn-lg {
+  padding: 20px 50px;
+}
+
+@mixin btn-sm {
+}
+
+.yellow {
+  color: $yellow;
+}

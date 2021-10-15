@@ -1,0 +1,80 @@
+@import "../../styles/variables.scss";
+
+.navbar {
+  background-color: $black;
+  color: white;
+}
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  height: 100px;
+  margin: auto;
+  align-items: center;
+}
+
+.in-links {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+
+  li {
+    display: inline;
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 20px;
+  }
+}
+
+.page-logo {
+  width: 120px;
+  position: absolute;
+  left: calc(50% - 60px);
+}
+
+.out-links {
+  display: flex;
+  align-items: center;
+
+  .social-links {
+    list-style: none;
+    margin-bottom: 0;
+    padding-right: 30px;
+
+    li {
+      padding: 10px;
+      display: inline;
+    }
+  }
+
+  .get-btn {
+    @include btn-glow;
+    @include btn;
+  }
+}
+
+.toggle {
+  display: none;
+  position: relative;
+  left: 10%;
+}
+.folded {
+  display: inline-block;
+}
+.foldable {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .toggle {
+    display: block;
+    background-color: transparent;
+    color: white;
+    border: none;
+  }
+
+  .in-links,
+  .out-links {
+    display: none;
+  }
+}

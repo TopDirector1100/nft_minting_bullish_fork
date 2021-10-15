@@ -1,0 +1,54 @@
+@import "../../styles/variables.scss";
+
+.toolbar {
+  color: black;
+}
+
+.container-toolbar {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 100px;
+  text-align: center;
+
+  h1 {
+    font-size: 50px;
+  }
+}
+
+.collection {
+  width: 50%;
+  padding: 0 5% 30px;
+
+  img {
+    max-width: 100%;
+  }
+}
+.tools {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  p {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  ul {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .mint-btn {
+    margin-top: 40px;
+    background-color: black !important;
+    color: white !important;
+    padding: 20px 30px !important;
+    font-weight: 500;
+    max-width: 200px;
+    font-size: 20px;
+    border-radius: 10px;
+  }
+}
+.toolbar-main {
+  display: flex;
+}

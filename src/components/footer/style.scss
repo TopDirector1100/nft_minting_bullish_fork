@@ -1,0 +1,25 @@
+@import "../../styles/variables.scss";
+
+footer {
+  margin-top: 100px;
+  display: flex;
+  color: black;
+  flex-direction: column;
+  justify-content: center;
+  height: 112px;
+  background: transparent;
+  padding: 1em 0;
+}
+.container-footer {
+  div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  & > img {
+    margin-bottom: 30px;
+  }
+  text-align: center;
+  max-width: 300px;
+  margin: auto;
+}
