@@ -26,6 +26,7 @@
   width: 50%;
 }
 .intro-inner {
+  text-align: center;
   max-width: 500px;
   height: 100%;
   margin-left: auto;
@@ -40,9 +41,11 @@
   @include btn-lg;
   background-color: rgb(255, 214, 66);
   font-weight: 700;
+  align: center;
 }
 
 .intro-steps {
+  justify-content: center;
   display: flex;
   margin-top: 20px;
 
@@ -73,6 +76,7 @@
       width: 100%;
     }
     .intro-inner {
+      text-align: center;
       width: 100%;
       max-width: 100%;
     }
