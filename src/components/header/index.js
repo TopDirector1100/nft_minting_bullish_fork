@@ -19,10 +19,9 @@ const Header = () => {
           <ul className="in-links">
             <li><a>Meb Home</a></li>
             <li><a>Road Map</a></li>
-            <li><a>Metent Ether Babies</a></li>
             <li><a>Mint Your Mebs</a></li>
           </ul>
-          <img src={pageLogo} alt="page-logo" className="page-logo" />
+          {/* <img src={pageLogo} alt="page-logo" className="page-logo" /> */}
           <div className="out-links">
             <ul className="social-links">
               <li>
