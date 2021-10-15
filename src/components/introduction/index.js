@@ -8,11 +8,11 @@ const Introduction = () => {
           {/* <h1 className="yellow">We are</h1>
           {/* <h1 className="yellow">Bullish.</h1>
           <h1>Are you?</h1> */} 
-          <p className="intro-small">NFT Collection & Mobile app</p>
-          <button className="get-llama-btn">Mint Your Mebs</button>
+          <p className="intro-small">Mutant Ether Babies NFT Collecion</p>
+          <button className="get-llama-btn">Mint Mebs Now</button>
           <div className="intro-steps">
-            <span className="ticked">Epoch1: SOLD OUT</span>
-            <span>Epoch2: AVAILABLE</span>
+            <span className="ticked">Minted Mebs</span>
+            <span>Available Mebs</span>
           </div>
         </div>
       </div>
