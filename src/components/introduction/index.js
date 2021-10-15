@@ -9,7 +9,7 @@ const Introduction = () => {
           {/* <h1 className="yellow">Bullish.</h1>
           <h1>Are you?</h1> */} 
           <p className="intro-small">NFT Collection & Mobile app</p>
-          <button className="get-llama-btn">Get Llama Now</button>
+          <button className="get-llama-btn">Mint Your Mebs</button>
           <div className="intro-steps">
             <span className="ticked">Epoch1: SOLD OUT</span>
             <span>Epoch2: AVAILABLE</span>
