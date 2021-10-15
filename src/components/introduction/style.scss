@@ -5,11 +5,11 @@
   display: flex;
   padding-top: 100px;
   background-image: url("../../resources/images/herobkg.e04ed930.webp");
-  background-size: 50%;
+  background-size: 40%;
   background-repeat: no-repeat;
   background-position-x: 75%;
   background-position-y: bottom;
-  height: 600px;
+  height: 500px;
 
   h1 {
     font-size: 90px;
@@ -17,6 +17,7 @@
   }
 
   .intro-small {
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 25px;
   }
