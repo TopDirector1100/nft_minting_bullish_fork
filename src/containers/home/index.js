@@ -11,8 +11,8 @@ const Home = () => {
   return (
     <Layout>
       <Introduction />
-      <Club />
-      <div className="big-img"></div>
+      {/* <Club /> */}
+      {/* <div className="big-img"></div> */}
       <Toolbar />
       <Roadmap />
       <FAQ />
