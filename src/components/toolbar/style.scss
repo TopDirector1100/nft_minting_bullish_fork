@@ -16,6 +16,7 @@
 }
 
 .collection {
+  position: relative;
   width: 50%;
   padding: 0 5% 30px;
 
@@ -51,4 +52,99 @@
 }
 .toolbar-main {
   display: flex;
+}
+
+.slider-single-content img {
+  border: 1px solid rgb(255, 76, 181);
+  padding: 3px;
+}
+
+.fqbJCS {
+  position: absolute;
+  left: -32px;
+  top: -32px;
+  z-index: 9;
+  transform: rotateZ(45deg);
+}
+
+.cdTyhF {
+  position: absolute;
+  right: -32px;
+  top: -32px;
+  z-index: 9;
+  transform: rotateZ(135deg);
+}
+
+.haQoIp {
+  position: absolute;
+  left: -32px;
+  bottom: -32px;
+  z-index: 9;
+  transform: rotateZ(-45deg);
+}
+
+.eJDRKz {
+  position: absolute;
+  right: -32px;
+  bottom: -32px;
+  z-index: 9;
+  transform: rotateZ(-135deg);
+}
+
+.lmGFyU {
+  padding: 3px;
+  position: absolute;
+  width: 37%;
+  height: 70%;
+  z-index: 99;
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  top: -3px;
+}
+
+.slider-left {
+  bottom: -60px;
+  left: -10px;
+  height: 40px !important;
+}
+
+.slider-right {
+  bottom: -60px;
+  left: 93%;
+  height: 40px !important;
+}
+
+.slider-left div {
+  border: 0px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAAYklEQVRYw+3UsQ2AMAxE0RuHIdiIwiMwQsZkAAZwSEUTUfkKlP8GuF9YsgRgCRkZ3vkhvPPD4Z2/c2eeeeZr5wuY52eBZg5UJ+ZXeBNXbp73TIIEia/EKTkTTT5PwjkP4Ac6pjJE9cvsY6IAAAAASUVORK5CYII=");
+  height: 50px;
+  width: 50px;
+  padding: 0;
+  cursor: pointer;
+  background-size: 70%;
+  border: none !important;
+  top: 87% !important;
+  background-repeat: no-repeat;
+  margin-top: 0 !important;
+}
+
+.slider-right div {
+  border: 0px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAAZUlEQVRYw+3Uuw2AQBADURfFpzUCpEMUDHQwRGSEGN3pPAX4JauVUkpdR6F45wEbwcKTh2DgcBMjZ4hKiOkP4nITcw0EX1bcwBvRFlBau6PMZ77HeYnV/J4lduu8JLFZ51NKFXUDCFdFf+YbgBQAAAAASUVORK5CYII=");
+  padding: 0;
+  cursor: pointer;
+  height: 50px;
+  top: 87% !important;
+  width: 50px;
+  border: none !important;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  margin-top: 0 !important;
+}
+
+.slick-comment {
+  color: white;
+  position: relative;
+  top: 35px;
 }
