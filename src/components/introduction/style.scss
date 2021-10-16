@@ -2,7 +2,6 @@
 
 .introduction {
   background-color: $black;
-  display: flex;
   padding-top: 100px;
   background-image: url("../../resources/images/herobkg.e04ed930.webp");
   background-size: 50%;
@@ -28,15 +27,29 @@
   }
 }
 
+.intro-container  {
+  max-width: 1300px;
+  margin: auto;
+  display: flex;
+}
 .intro-box {
   width: 50%;
 }
 .intro-inner {
-  text-align: center;
-  max-width: 500px;
+  text-align: left;
+  padding-left: 83px;
   height: 100%;
-  margin-left: 5%;
   padding-top: 30px;
+
+  .intro-small-first {
+    margin-left: 120px;
+  }
+  .intro-small-second {
+    text-align: left;
+  }
+  .get-llama-btn {
+    margin-left: 115px;
+  }
 }
 .empty-box {
   width: 50%;
@@ -51,9 +64,8 @@
 }
 
 .intro-steps {
-  justify-content: center;
-  display: flex;
   margin-top: 20px;
+  margin-left: 120px;
 
   & > :last-child {
     font-weight: 600;
@@ -75,7 +87,7 @@
 }
 
 @media screen and (max-width: 700px) {
-  .introduction {
+  .introduction-container {
     flex-direction: column;
 
     .intro-box {
