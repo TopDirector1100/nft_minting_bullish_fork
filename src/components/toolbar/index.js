@@ -1,7 +1,18 @@
+import "slick-carousel/slick/slick.css"
+import "slick-carousel/slick/slick-theme.css"
 import "./style.scss"
 import AboutImg from "../../resources/images/about.7756b762.webp"
+import Slider from "react-slick";
 
 const Toolbar = () => {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1
+  };
+
   return (
     <div className="toolbar">
       <div className="container-toolbar">
@@ -9,7 +20,20 @@ const Toolbar = () => {
         <h3>Collection of 10,000 Handcrafted Artworks</h3>
         <div className="toolbar-main">
           <div className="collection">
-            <img src={AboutImg} alt="about-img" />
+            <Slider {...settings}>
+              <div>
+                <img src={AboutImg} alt="about-img" />
+              </div>
+              <div>
+                <img src={AboutImg} alt="about-img" />
+              </div>
+              <div>
+                <img src={AboutImg} alt="about-img" />
+              </div>
+              <div>
+                <img src={AboutImg} alt="about-img" />
+              </div>
+            </Slider>
           </div>
           <div className="tools">
             <p>
